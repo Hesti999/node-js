@@ -1,0 +1,75 @@
+.logo {
+  font-weight: 900;
+}
+
+.navigasi a {
+  margin-left: 20px;
+}
+
+.article h1 {
+  margin-top: 30px;
+}
+
+.more-image {
+  height: 350px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.about h4 {
+  text-align: center;
+}
+
+/* About */
+.about {
+  background-color: white;
+  margin-top: 100px;
+}
+
+.about img {
+  margin-top: -2px;
+  width: 100%;
+}
+
+.about h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 50px;
+}
+
+.about p {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 30px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+}
+
+.price .card {
+  background-color: #f9f9ff;
+}
+
+.price p {
+  font-size: 20px;
+}
+
+.price button {
+  background-color: #6cbe5e;
+  margin: 20px 100px 70px 0;
+  color: white;
+}
+
+.footer {
+  background-color: #6cbe5e;
+}
+
+.footer a {
+  margin-left: 20px;
+}

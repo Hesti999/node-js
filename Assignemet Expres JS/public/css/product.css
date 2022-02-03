@@ -1,0 +1,71 @@
+nav a {
+  margin-left: 50px;
+}
+
+.jumbotron {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.jumbotron .container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.jumbotron .container {
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 30px 0;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.card p {
+  font-weight: 500;
+}
+
+.pSatu::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000b0;
+  opacity: 0.8;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.detail {
+  padding: 10px 50px 0 50px;
+  margin: auto;
+  top: 180px;
+  right: 25%;
+  position: absolute;
+  color: white;
+  border: 3px solid white;
+  z-index: 999;
+}
+
+.product .page a {
+  margin-left: 30px;
+  display: inline-block;
+}

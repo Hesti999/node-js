@@ -1,0 +1,277 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  margin-left: 40px;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-right: 0px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  margin: auto;
+  margin-left: 50px;
+}
+
+a.nav-link.subscribe {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  border: 1px solid #414141;
+  padding: 12px 27px;
+  margin-right: 61px;
+  text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.jumbotron h1.display-4 {
+  padding-top: 263px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 87px;
+  margin-top: -100px;
+}
+
+.jumbotron p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Article */
+.article h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 82px;
+}
+
+.kartu {
+  margin-top: 50px;
+}
+.article {
+  background-color: #efefef;
+  border: 2px solid black;
+}
+
+.card {
+  margin: 0 50px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+}
+
+.article .card .card-body {
+  padding: 55px 25px;
+}
+
+.article h3 {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.article p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* About */
+.about {
+  background-color: white;
+}
+
+.about img {
+  margin-top: -2px;
+  margin-right: -15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.about h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 50px;
+}
+
+.about p {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 30px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+}
+
+/* Subscribe */
+.subs {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.subs h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.subs p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 25px;
+}
+
+.subs button {
+  margin-top: 25px;
+  border-radius: 0px;
+}
+
+.subs span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Footer */
+.footer a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+}
+
+ul {
+  margin-top: 70px;
+}
+
+ul li {
+  text-align: center;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    text-transform: uppercase;
+    margin-top: 45px;
+  }
+
+  .navbar-brand {
+    margin-left: 63px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    margin-top: -140px;
+    text-transform: uppercase;
+    background-position: 0px -130px;
+    height: 720px;
+  }
+
+  .jumbotron h1.display-4 {
+    margin-top: 10px;
+  }
+
+  /* Article */
+  .article {
+    background-color: #efefef;
+    height: 640px;
+  }
+
+  .article h2 {
+    margin-top: 60px;
+  }
+
+  .card {
+    margin: 0 10px;
+    margin-bottom: 9px;
+  }
+
+  /* About */
+  .about {
+    height: 580px;
+    border: 2px solid black;
+  }
+
+  .aboutdes {
+    margin-left: -55px;
+    padding-top: 100px;
+  }
+
+  .about img {
+    height: 580px;
+    width: 640px;
+    margin-left: -15px;
+  }
+
+  .about h2 {
+    padding-top: 0px;
+  }
+
+  /* Subscribe */
+  .subs {
+    height: 480px;
+    padding-top: 147px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 60px;
+  }
+}
